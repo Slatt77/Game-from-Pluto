@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Carouselcomponent from './Components/Carousel/Carouselcomponent';
+import Landingpage from './Pages/Landingpage/Landingpage';
+
 
 function App() {
   return (
-    <div className="App">
-        <h1>Game from Pluto
-          Revamp
-        </h1>
+    <div>
+        {/* <Carouselcomponent /> */}
+        <Landingpage />
     </div>
   );
 }
